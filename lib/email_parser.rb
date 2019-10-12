@@ -12,11 +12,11 @@ attr_accessor :emails
     end
     
     def parse
-      parsed_adrresses 
+      parsed_adrresses = 
       emails.split.collect do |address|
       address.split(',').join
-        
-    end.uniq
+       parsed_adrresses.uniq 
+    end
   end
    
 end   
