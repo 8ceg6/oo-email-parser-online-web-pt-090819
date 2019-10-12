@@ -16,7 +16,7 @@ attr_accessor :emails
       address.split(',').join
         
     end
-    end
+  end
    
 end   
     
