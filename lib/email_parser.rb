@@ -16,7 +16,9 @@ attr_accessor :emails
       address.split(',').join
     end
     end
-  
+   def parse_uniq
+     parse.uniq
+   end
 
 end   
     
