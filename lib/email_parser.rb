@@ -15,7 +15,7 @@ attr_accessor :emails
       emails.split.collect do |address|
       address.split(',').join
         
-    end
+    end.uniq
   end
    
 end   
